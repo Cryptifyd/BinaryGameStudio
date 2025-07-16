@@ -1,19 +1,24 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "dev-ssl": "NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "stackblitz": "npm run dev"
+    "stackblitz": "npm run dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "stackblitz": {
     "startCommand": "npm run stackblitz"
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^1.5.2",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@storyblok/nuxt": "^6.0.4",
+    "eslint": "^9.31.0",
     "nuxt": "^3.10.2"
   }
 }
