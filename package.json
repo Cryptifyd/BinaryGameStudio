@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^1.5.2",
+    "@nuxt/image": "^1.10.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@storyblok/nuxt": "^6.0.4",
     "eslint": "^9.31.0",
