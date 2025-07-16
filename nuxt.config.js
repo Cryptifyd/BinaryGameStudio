@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     ],
     '@nuxtjs/tailwindcss',
   ],
-  css: ['@/assets/css/roboto.css'],
+  css: ['~/assets/css/roboto.css'],
+  future: {
+    compatibilityVersion: 4,
+  },
   compatibilityDate: '2025-07-16',
 })

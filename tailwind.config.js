@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['storyblok/**/*.{vue,js}', 'components/**/*.{vue,js}', 'pages/**/*.vue'],
+  content: ['app/storyblok/**/*.{vue,js}', 'app/components/**/*.{vue,js}', 'app/pages/**/*.vue'],
   theme: {
     fontFamily: {
       sans: 'Roboto, sans-serif',
